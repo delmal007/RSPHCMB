@@ -1,0 +1,60 @@
+.card{
+  border: none;
+}
+
+.title{
+  margin-top: 70px;
+  margin-left: 70px;
+}
+
+.card-container{
+  width: 382px;
+  height: 382px;
+  transition: ease-in;
+  margin-left: 70px;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; 
+}
+
+.date{
+  font-size: 8px;
+}
+
+.card-contain:hover{
+  transform: scale(1.1);
+  box-shadow: 0px 0px 15px 0px;
+}
+
+.image-container img{
+  height: 240px;
+  width: 382px;
+}
+
+.card-content{
+  margin-top: 8px;
+}
+
+.card-body{
+  font-size: 10px;
+  margin-top: -10px;
+  margin-left: -4%;
+  
+}
+
+.card-contain{
+  margin-right: 30px;
+  
+}
+
+.btn{
+  border: none;
+  width: 162px;
+  height: 47px;
+  margin-top: 100px;
+  background-color: #E8F1FF;
+}
+
+button{
+  margin: auto;
+}
